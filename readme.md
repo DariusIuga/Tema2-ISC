@@ -16,20 +16,20 @@ This will generate a customized archive with the tasks (for your eyes, only :P).
 The homework contains 4 tasks and a special `remote-shell` one (no flags in
 there, but serves as frontend to all others, read on):
 
-  - `message-send`: networking (easy);
-  - `ghost-in-the-shell`: networking (moderate);
-  - `jwt-auth`: web challenge (moderate);
-  - `sqli-cart`: web challenge (moderate/hard);
+-   `message-send`: networking (easy);
+-   `ghost-in-the-shell`: networking (moderate);
+-   `jwt-auth`: web challenge (moderate);
+-   `sqli-cart`: web challenge (moderate/hard);
 
 Each task challenges you to find a "flag", a string with the form
 `SpeishFlag{<random hash>}` (internal joke).
-There is a single flag per task: if you got one with the appropriate syntax, it 
-will be accepted as the correct solution (please take care when decoding or 
+There is a single flag per task: if you got one with the appropriate syntax, it
+will be accepted as the correct solution (please take care when decoding or
 manually copying it, e.g. zero vs 'o').
 WARNING: the flag is case sensitive! Please copy the whole string (including the
 `SpeishFlag{...}` decorator) into the solution file!
 
-Note that all tasks require Internet connectivity (using the same `remote-shell` 
+Note that all tasks require Internet connectivity (using the same `remote-shell`
 session)!
 The SSH session will be automatically terminated after 30 minutes (no matter the
 activity). Please the the `remote-shell/task.txt` documentation for
@@ -41,14 +41,14 @@ assignment's infrastructure is strictly forbidden!
 Your final solution will be in the form of a ZIP archive containing the
 following files:
 
-  - `flags.txt`: just put your flags in there, one each line, INCLUDING the 
+-   `flags.txt`: just put your flags in there, one each line, INCLUDING the
     'SpeishFlag{' prefix! YOU WILL BE PENALIZED IF YOU DON'T FOLLOW THESE EXACT
     INSTRUCTIONS OK?
-  - `username.txt`: your username (as file content!! the same as you entered inside
+-   `username.txt`: your username (as file content!! the same as you entered inside
     the homework archive generator webpage)!
-  - `readme.txt`: for each task, briefly describe your approach (keep it 
+-   `readme.txt`: for each task, briefly describe your approach (keep it
     short - medium, please!);
-  - any custom scripts you coded for solving the homework (please don't include
+-   any custom scripts you coded for solving the homework (please don't include
     third party tools, link them in your readme instead).
 
 Please keep the file names as above and available inside the archive's
